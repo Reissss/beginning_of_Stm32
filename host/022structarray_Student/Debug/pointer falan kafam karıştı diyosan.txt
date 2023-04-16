@@ -1,0 +1,14 @@
+function(dizi)----->> burda biz ram adresini yolluyoruz
+
+
+
+
+function(struct student *alınandizi){ ---->bu adresi pointera atıyoruuz
+	*(alınandizi+i)  --- bu hali veriyi verir
+	  (alınan dizi +i)  bu hal sadece ram adresini taşır
+onun için ===  (*(alınandizi+i)).rollnumber == buda tam veri
+ yada bunun yerine       alınandizi[i].rollnumber   kulllan
+
+
+}
+
